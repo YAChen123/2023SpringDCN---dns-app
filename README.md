@@ -25,3 +25,5 @@ You can get User Server, Fibonacci Server, and Authoritative Server ip_address b
 5. User visit `http://localhost:8080/fibonacci?hostname=fibonacci.com&fs_port=9090&number=10&as_ip=auth-server-ip-from-DCN_lab3&as_port=53533`
 
 
+
+The lab exercise was given by Professor Jean-Claude Franchitti
