@@ -3,7 +3,7 @@ services:
   user_server:
     container_name: user_server
     build:
-      context: .dns-app/US
+      context: ./US
       dockerfile: Dockerfile
     image: yc6380/us:latest
     ports:
@@ -13,7 +13,7 @@ services:
   fibonacci_server:
     container_name: fibonacci_server
     build:
-      context: .dns-app/FS
+      context: ./FS
       dockerfile: Dockerfile
     image: yc6380/fs:latest
     ports:
@@ -23,7 +23,7 @@ services:
   auth_server:
     container_name: auth_server
     build:
-      context: .dns-app/AS
+      context: ./AS
       dockerfile: Dockerfile
     image: yc6380/as:latest
     ports:
