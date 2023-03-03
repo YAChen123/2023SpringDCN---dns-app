@@ -2,7 +2,7 @@
 ## Lab 3: Develop Simplified Authoritative Server for a Network of Applications
 
 ### Overview
-![Lab steps](lab-instruction/auth-servers-interaction.jpeg)
+![Lab steps](lab_instruction/auth-servers-interaction.jpg)
 
 ### Setup
 1. Open your terminal and clone the repository
